@@ -3,9 +3,11 @@
 const firstOperand = prompt('Введите первое число: ');
 const secondOperand = prompt('Введите второе число и получите результат: ');
 
-// const resultPlus = (+firstOperand + +secondOperand);
+
+
+// const resultPlus = parseFloat(firstOperand) + parseFloat(secondOperand);
 // or
-const resultPlus = parseFloat(firstOperand) + parseFloat(secondOperand);
+const resultPlus = (+firstOperand + +secondOperand);
 const resultMinus = (firstOperand - secondOperand);
 const resultMultiply = (firstOperand * secondOperand);
 const resultDivision = (firstOperand / secondOperand);
