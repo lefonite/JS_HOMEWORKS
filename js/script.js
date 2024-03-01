@@ -3,7 +3,6 @@
 const firstOperand = prompt('Введите первое число: ');
 const secondOperand = prompt('Введите второе число и получите результат: ');
 
-// #1 вариант решения:
 // const resultPlus = (+firstOperand + +secondOperand);
 // or
 const resultPlus = parseFloat(firstOperand) + parseFloat(secondOperand);
