@@ -21,8 +21,8 @@ console.log(user.name);
 // Задача 2
 
 const user2 = { name: 'John' };
-user2.name = 'Pete2';
-console.log(user2.name); // Ответ: Работает, выводится - Pete2
+user2.name = 'Pete';
+console.log(user2.name); // Ответ: Работает, выводится - Pete
 /*  В объекте с использованием const,
 саму переменную нельзя переопределить другим объектам, но сам объект может быть изменен.
 /const ограничивает переопределение переменной,
