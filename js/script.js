@@ -33,17 +33,17 @@ console.log(user2.name); // Ответ: Работает, выводится - P
 
 // Задача 3
 
-const salaries2 = {
+const salaries = {
     John: 100,
     Ann: 160,
     Pete: 130,
 }
-let sum2 = 0;
-for (let key in salaries2) {
+let sum = 0;
+for (let key in salaries) {
     // if (typeof salaries2[key] === 'number') - это если нет уверенности что будут числа
-        sum2 += salaries2[key];
+        sum += salaries[key];
 }
-console.log('Все зарплаты2:', sum2, '$');
+console.log('Все зарплаты2:', sum, '$');
 
 
 
