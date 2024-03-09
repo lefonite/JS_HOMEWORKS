@@ -1,6 +1,6 @@
 'use strict';
 
-const userNumber = prompt('Введите свой возраст или год рождения: ');
+const userNumber = +prompt('Введите свой возраст или год рождения: ');
 const lastDigit = userNumber % 10;
 const lastTwoDigits = userNumber % 100;
 
