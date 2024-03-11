@@ -1,4 +1,14 @@
-### Homework #1
-1. Зареєструватися на https://github.com/ якщо у вас там немає аккаунта
-2. створити шаблон ДЗ як я показував на уроці
-3. в вашому репозиторії повинна бути тільки гілка main або master з файловою структурою котру я показував на уроці, інші гілки створювати не потрібно 
+### Homework #18
+# switch...case
+1. Переписати код нижче з використанням конструкції switch…case
+2. let numOrStr = prompt('input number or string');
+   console.log(numOrStr)
+if(numOrStr === null) {
+console.log('ви скасували')
+} else if( numOrStr.trim() === '' ) {
+console.log('Empty String');
+} else if ( isNaN( +numOrStr ) ) {
+console.log(' number is Ba_NaN')
+} else {
+console.log('OK!')
+}
