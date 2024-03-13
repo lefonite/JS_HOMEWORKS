@@ -79,7 +79,7 @@ if (isNaN(number) || number <= 0) {
     let evenDivisorsCount = 0;
     let evenDivisorsSum = 0;
 
-    for (let i = 1; i <= number; i++) {
+    for (let i = 1; i <= number; i++) {9,
         if (number % i === 0) {
             console.log(i);
 
