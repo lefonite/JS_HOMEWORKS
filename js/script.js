@@ -2,7 +2,7 @@ const a = prompt('Введите значение для "a":');
 const b = prompt('Введите значение для "b":');
 const num = parseInt(prompt('Введите целое число от 1 до 4:'));
 
-let result;
+let result = null;
 
 // Задача 1
 if (parseFloat(a) === 0) {
