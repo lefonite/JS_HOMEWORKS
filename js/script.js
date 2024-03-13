@@ -1,8 +1,8 @@
 'use strict';
 
 // Задача 1
-let x = 10;
-let y = 7;
+const x = 10;
+const y = 7;
 const result = x>y ? 'x больше y':'x не больше, чем y';
 console.log(result);
 
