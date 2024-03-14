@@ -69,7 +69,7 @@ document.write('<br> ● 8 - Всі числа в діапазоні від 100 
 // 10.
 // 11.
 const number = 24;
-document.write(`<br> ● 9 - Дільники числа ${number}: `);
+document.write('<br> ● 9 - Дільники числа: ' + number);
 
 let evenDivisorsCount = 0;
 let evenDivisorsSum = 0;
@@ -85,8 +85,8 @@ for (let i = 1; i <= number; i++) {
     }
 }
 
-document.write(`<br> ● 10 - Кількість парних дільників: ${evenDivisorsCount}`);
-document.write(`<br> ● 11 - Сума парних дільників: ${evenDivisorsSum}`);
+document.write('<br> ● 10 - Кількість парних дільників: ' + evenDivisorsCount);
+document.write('<br> ● 11 - Сума парних дільників: ' + evenDivisorsSum);
 
 
 
