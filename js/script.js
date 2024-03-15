@@ -25,27 +25,44 @@ for (let i = 1; i <= 100; i++) {
 }
 
 // #Задача 4
-// const number = 17; // Задане ціле число
-// let isPrime = true;
-// let i = 2;
-//
-// if (number <= 1) {
-//     isPrime = false; // Якщо число менше або рівне 1, воно не є простим
-// } else {
-//     while (i <= Math.sqrt(number)) {
-//         if (number % i === 0) {
-//             isPrime = false; // Якщо знайдено дільник, число не є простим
-//             break; // Виходимо з циклу, бо вже зрозуміло, що число не є простим
-//         }
-//         i++;
-//     }
-// }
-//
-// if (isPrime) {
-//     document.write(`Число ${number} є простим.`);
-// } else {
-//     document.write(`Число ${number} не є простим.`);
-// }
+const number = 17;
+let isPrime = true;
+let i = 2;
+
+if (number <= 1) {
+    document.write(`<br> ● 4 - Число не является простым: `  + number);
+} else {
+    while (i <= Math.sqrt(number)) {
+        if (number % i === 0) {
+            isPrime = false;
+            break;
+        }
+        i++;
+    }
+    if (isPrime) {
+        document.write(`<br> ● 4 - Число является простым: ` + number);
+    } else {
+        document.write(`<br> ● 4 - Число является простым: ` + number);
+    }
+}
+
+
+
+// #Задача 5
+const myNumber = 81;
+for (let i = 1; i < myNumber; i++) {
+    const calculatedNumber = 3 ** i;
+    if (calculatedNumber > myNumber) {
+        document.write(`<br> ● 5 - Не могу найти число`);
+        break;
+    }
+    if (calculatedNumber !== myNumber) continue
+    document.write(`<br> ● 5 - результат: ` + calculatedNumber);
+    break;
+}
+
+
+
 
 
 
