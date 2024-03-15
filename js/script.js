@@ -29,20 +29,22 @@ const number = 17;
 let isPrime = true;
 let i = 2;
 
-while (i <= Math.sqrt(number)) {
-    if (number % i === 0) {
-        isPrime = false;
-        break;
-    }
-    i++;
-}
-
-if (isPrime) {
-    document.write(`<br> ● 4 - Число является простым: ` + number);
+if (number <= 1) {
+    document.write(`<br> ● 4 - Число не является простым: `  + number);
 } else {
-    document.write(`<br> ● 4 - Число не является простым: ` + number);
+    while (i <= Math.sqrt(number)) {
+        if (number % i === 0) {
+            isPrime = false;
+            break;
+        }
+        i++;
+    }
+    if (isPrime) {
+        document.write(`<br> ● 4 - Число является простым: ` + number);
+    } else {
+        document.write(`<br> ● 4 - Число не является простым: ` + number);
+    }
 }
-
 
 
 
