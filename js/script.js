@@ -42,7 +42,7 @@ if (number <= 1) {
     if (isPrime) {
         document.write(`<br> ● 4 - Число является простым: ` + number);
     } else {
-        document.write(`<br> ● 4 - Число является простым: ` + number);
+        document.write(`<br> ● 4 - Число не является простым: ` + number);
     }
 }
 
