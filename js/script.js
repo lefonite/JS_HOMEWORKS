@@ -27,11 +27,11 @@ for (let i = 1; i <= 100; i++) {
 // #Задача 4
 const number = 17;
 let isPrime = true;
-let i = 2;
 
 if (number <= 1) {
-    document.write(`<br> ● 4 - Число не является простым: `  + number);
+    isPrime = false;
 } else {
+    let i = 2;
     while (i <= Math.sqrt(number)) {
         if (number % i === 0) {
             isPrime = false;
@@ -39,12 +39,14 @@ if (number <= 1) {
         }
         i++;
     }
-    if (isPrime) {
-        document.write(`<br> ● 4 - Число является простым: ` + number);
-    } else {
-        document.write(`<br> ● 4 - Число не является простым: ` + number);
-    }
 }
+
+if (isPrime) {
+    document.write(`<br> ● 4 - Число является простым: ` + number);
+} else {
+    document.write(`<br> ● 4 - Число не является простым: ` + number);
+}
+
 
 
 
