@@ -19,7 +19,6 @@ function filterPositiveNumbers(arr) {
     }
 }
 
-
 const arr = [1, 2, 3, -1, -2, -3];
-console.log(filterPositiveNumbers(arr)); // Выведет [1, 2, 3]
+console.log(filterPositiveNumbers(arr)); // Выведет положительные числа [1, 2, 3]
 
