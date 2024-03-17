@@ -1,4 +1,11 @@
-### Homework #1
-1. Зареєструватися на https://github.com/ якщо у вас там немає аккаунта
-2. створити шаблон ДЗ як я показував на уроці
-3. в вашому репозиторії повинна бути тільки гілка main або master з файловою структурою котру я показував на уроці, інші гілки створювати не потрібно 
+### Homework #27
+## Реалізуйте функцію generateKey
+Реалізуйте функцію generateKey(length, characters), 
+яка повертає рядок випадкових символів із набору characters довжиною length. span>
+
+
+**Наприклад:**
+
+const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+const key = generateKey(16, characters);
+console.log(key); // eg599gb60q926j8i
