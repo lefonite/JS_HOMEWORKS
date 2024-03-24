@@ -88,7 +88,7 @@ console.log(subarr);
 
 // 20 Посчитайте количество отрицательных чисел в массиве.
 const arr20 = [5,-3, 6,-5, 0,-7, 8, 9];
-const negativeNumbers20 = arr16.filter(num => num < 0);
-const count = negativeNumbers.length;
+const negativeNumbers20 = arr20.filter(num => num < 0);
+const count = negativeNumbers20.length;
 console.log("Кол-во отрицательных чисел:", count);
 
