@@ -57,3 +57,38 @@ arr12.splice(6, 0, 'c');
 arr12.push('e');
 console.log(arr12);
 
+// 13. Дан массив [3, 4, 1, 2, 7]. Отсортируйте его.
+const arr13 = [3, 4, 1, 2, 7];
+arr13.sort();
+console.log(arr13);
+
+// 14. Дан массив с числами [5, 6, 7, 8, 9]. Найдите сумму этих чисел.
+const arr14 = [5, 6, 7, 8, 9];
+const sum = arr14.reduce((sum, current) => sum + current, 0);
+console.log(sum);
+
+// 15. Дан массив с числами [5, 6, 7, 8, 9]. Сделайте из него массив, состоящий из квадратов этих чисел.
+const squares = arr14.map(num => num * num);
+console.log(squares);
+
+// 16 & 17 Дан массив с числами [1,-3, 5, 6,-7, 8, 9,-11]. Оставьте в нем только отрицательные числа.
+const arr16 = [1,-3, 5, 6,-7, 8, 9,-11];
+const negativeNumbers = arr16.filter(num => num < 0);
+console.log(negativeNumbers);
+
+// 18 Оставьте в массиве только те строки, длина которых больше 5 символов.
+const arr18 = ['aaa', 'aaaqqq', 'zzzqq', 'zz', 'qsaa', 'q', 'az'];
+const filteredStrings = arr18.filter(str => str.length > 5);
+console.log(filteredStrings);
+
+// 19 Дан массив, в нем могут быть обычные элементы и подмассивы. Оставьте в нем только подмассивы.
+const arr19 = [1, 2, [3, 4], 5, [6, 7]];
+const subarr = arr19.filter(item => Array.isArray(item));
+console.log(subarr);
+
+// 20 Посчитайте количество отрицательных чисел в массиве.
+const arr20 = [5,-3, 6,-5, 0,-7, 8, 9];
+const negativeNumbers20 = arr16.filter(num => num < 0);
+const count = negativeNumbers.length;
+console.log("Кол-во отрицательных чисел:", count);
+
